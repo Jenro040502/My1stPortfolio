@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Jenro Malupit</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--NAVIGATION BAR FOR MOBILE VIEW-->
+    <div class="sidebar">
+      <nav class="h-tags">
+        <a href="#" onclick="hideSidebar()">X</a>
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skill</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+      <h1>J.</h1>
+      <div class="h-tags">
+        <a class="active hide" href="#home">Home</a>
+        <a class="hide" href="#about">About</a>
+        <a class="hide" href="#skills">skill</a>
+        <a class="hide" href="#Portfolio">Portfolio</a>
+        <a class="hide" href="#contact">Contact</a>
+        <a  href="#" onclick="showSidebar()" class="hide-m">MENU</a>
+      </div>
+    </header>
+
+    <!--HOME SECTION -->
+    <section class="home container" id="home">
+      <div class="home-d">
+        <div class="h-details">
+          <h3>Hi, It's Me</h3>
+          <h1><span>Jenro</span></h1>
+          <p>
+            I am a <span>Computer Science Student</span>.
+          </p>
+          <div class="social-icons">
+            <a href="https://web.facebook.com/Jinroo05"><i class="bx bxl-facebook"></i></a>
+            <a href="https://github.com/Jenro040502"><i class="bx bxl-github"></i></a>
+          </div>
+          <a href="Resume.pdf" download>
+            <button class="btn">Download Resume</button>
+          </a>
+          
+        </div>
+        <img class="p-img" src="pic1.jfif" alt="" />
+      </div>
+    </section>
+
+    <!--ABOUT SECTION -->
+    <section class="about container" id="about">
+      <img class="p-img" src="pic1.jfif" alt="" />
+      <div class="a-details">
+        <h1>About <span>Me</span></h1>
+        <h4>Future Frontend Developer!</h4>
+        <p>
+            Hello! I'm Jenro P. Magbanua, a passionate 3rd-year college student pursuing a Bachelor 
+            of Science in Computer Science. I'm dedicated to expanding my knowledge in software development, 
+            problem-solving, and project management, with a particular interest in developing efficient systems and innovative solutions.
+        </p>
+        <button class="btn">Know More</button>
+      </div>
+    </section>
+
+     <!-- SKILLS SECTION -->
+<section class="skills container" id="skills">
+    <h1 class="heading">My <span>Skills</span></h1>
+  
+    <div class="skills-boxes">
+      <div class="skill-box">
+        <h1>Web Development</h1>
+        <ul>
+            <li>Basic knowledge of HTML.</li>
+            <li>Familiar with CSS for styling and layout design.</li>
+            <li>Understanding of JavaScript for adding interactivity to web pages.</li>
+            <li>Basic knowledge of MySQL for database management.</li>
+        </ul>
+      </div>
+  
+      <div class="skill-box">
+        <h1>Graphic Design</h1>
+        <ul>
+            <li>Familiar with Canva for creating simple designs.</li>
+            <li>Basic proficiency in Adobe Photoshop and Illustrator for graphic creation.</li>
+            <li>Understanding of basic design principles such as color theory and typography.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="container Portfolio" id="Portfolio">
+      <h1 class="heading">Latest <span>Projects</span></h1>
+
+      <div class="s-boxs">
+        <div class="s-box">
+          <h1>Inventory System</h1>
+          <img src="pic2.jfif" alt="" />
+        </div>
+
+        <div class="s-box">
+          <h1>Rent System</h1>
+          <img src="pic3.jfif" alt="" />
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+<section class="container contact" id="contact">
+    <div class="form-details">
+      <h1 class="heading">Contact <span>Me</span></h1>
+  
+      <p>Phone Number: <strong>09927261566</strong></p>
+      <p>Email: <strong>jhenromagbanua@gmail.com</strong></p>
+      <p>Address: <strong>Bacoor, Cavite</strong></p>
+    </div>
+  </section>
+  
+
+    <!-- FOOTER SECTION -->
+    <footer>
+      <h4>Jenro Malupit- All Right Reserved</h4>
+    </footer>
+
+    <!-- SCRIPT LINK -->
+    <script src="script.js"></script>
+  </body>
+</html>
